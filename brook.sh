@@ -125,14 +125,14 @@ Download_brook(){
 }
 Service_brook(){
     if [[ ${release} = "centos" ]]; then
-        if ! wget --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/manfly17/brook-pro/blob/main/brook-pf_centos -O /etc/init.d/brook-pf; then
+        if ! wget --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/manfly17/brook-pro/main/brook-pf_centos -O /etc/init.d/brook-pf; then
             echo -e "${Error} Brook服务 管理脚本下载失败 !" && exit 1
         fi
         chmod +x /etc/init.d/brook-pf
         chkconfig --add brook-pf
         chkconfig brook-pf on
     else
-        if ! wget --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/manfly17/brook-pro/blob/main/brook-pf_debian -O /etc/init.d/brook-pf; then
+        if ! wget --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/manfly17/brook-pro/main/brook-pf_debian -O /etc/init.d/brook-pf; then
             echo -e "${Error} Brook服务 管理脚本下载失败 !" && exit 1
         fi
         chmod +x /etc/init.d/brook-pf
