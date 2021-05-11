@@ -661,7 +661,7 @@ if [[ "${action}" == "monitor" ]]; then
     crontab_monitor_brook
 else
     echo && echo -e "  Brook 端口转发 一键管理脚本修改版(DDNS支持) ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
-  
+————————————
  ${Green_font_prefix} 1.${Font_color_suffix} 安装 Brook
  ${Green_font_prefix} 2.${Font_color_suffix} 卸载 Brook
 ————————————
@@ -673,7 +673,7 @@ else
  ${Green_font_prefix} 7.${Font_color_suffix} 查看 Brook 端口转发
  ${Green_font_prefix} 8.${Font_color_suffix} 查看 Brook 日志
  ${Green_font_prefix} 9.${Font_color_suffix} 监控 Brook 运行状态(如果使用DDNS必须打开)
- ————————————
+————————————
  ${Green_font_prefix}10.${Font_color_suffix} 安装CNAME依赖(若添加DDNS出现异常)
  ${Green_font_prefix}11.${Font_color_suffix} iptables一键放行
 ————————————" && echo
