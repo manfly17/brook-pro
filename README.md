@@ -1,6 +1,6 @@
 ## 使用方法
 ```shell
-wget -qO brook-pf-mod.sh https://raw.githubusercontent.com/manfly17/brook-pro/master/brook-pf-mod/master/brook-pf-mod.sh && chmod +x brook-pf-mod.sh && bash brook-pf-mod.sh
+wget -qO brook.sh https://raw.githubusercontent.com/manfly17/brook-pro/main/brook.sh && chmod +x brook.sh && brook.sh
 ```
 执行结果：
 ```
