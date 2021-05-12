@@ -16,7 +16,7 @@ wget -N --no-check-certificate https://mirror.ghproxy.com/https://raw.githubuser
   7. 查看 Brook 端口转发
   8. 查看 Brook 日志
   9. 监控 Brook 运行状态(如果使用DDNS必须打开)
- ————————————
+————————————
  10. 安装CNAME依赖(若添加DDNS出现异常)
  11. iptables一键放行
 ————————————
