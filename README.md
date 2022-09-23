@@ -1,6 +1,6 @@
 ## 食用方法
 ```shell
-wget -N --no-check-certificate https://mirror.ghproxy.com/https://raw.githubusercontent.com/manfly17/brook-pro/main/brook.sh && chmod +x brook.sh && bash brook.sh
+wget -N --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/manfly17/brook-pro/main/brook.sh && chmod +x brook.sh && bash brook.sh
 ```
 执行结果：
 ```
